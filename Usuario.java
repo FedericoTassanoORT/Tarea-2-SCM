@@ -72,5 +72,8 @@ public class Usuario {
     public void setSaldo(int saldo) {
         this.saldo = saldo;
     }
-    
+    public boolean equals (Usuario a) {
+        if (a.getCedula()==this.getCedula()) return true;
+        else return false;
+    }
 }
