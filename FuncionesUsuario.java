@@ -28,4 +28,8 @@ public class FuncionesUsuario {
             return saldo;
     }
     
+    public void pagos(Usuario usuario){
+        usuario.setSaldo(calculo(usuario));
+    }
+
 }
